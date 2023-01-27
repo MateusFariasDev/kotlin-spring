@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstoretest?createDatabaseIfNotExist=true
+    username: root
+    password: 1234567
+  jackson:
+    default-property-inclusion: non_null
+
+jwt:
+  secret: d79c4ce3-4dac-4e73-b3c1-10dc96fae9d7
+  expiration: 999999
